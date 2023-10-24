@@ -1,0 +1,110 @@
+body {
+    background-color: rgb(80, 80, 255);
+}
+
+.p-inline {
+    border: 1px solid black;
+}
+
+button#btn1 {
+    background-color: aquamarine;
+    padding-inline: 1rem;
+    padding-block: 1rem;
+    margin: 1.5rem;
+    border-style: dashed;
+    border: 5px double green;
+    box-sizing: border-box;
+    width: 300px;
+}
+
+
+button#btn2 {
+    background-color: violet;
+    padding-inline: 1rem;
+    padding-block: 1rem;
+    margin: 1.5rem;
+    box-sizing: border-box;
+    width: 300px;
+}
+
+.rounded {
+    border-top-right-radius: 1rem;
+}
+
+button#btn3 {
+    background-color: red;
+    padding-inline: 1rem;
+    padding-block: 1rem;
+    margin: 1.5rem;
+    box-sizing: border-box;
+    width: 300px;
+}
+
+a {
+    text-decoration: none;
+    color:red;
+}
+
+a:hover {
+    color:violet;
+    cursor:grabbing;
+}
+
+a:visited {
+    color:yellowgreen;
+}
+
+a:active {
+    color:burlywood;
+}
+
+a:focus {
+    color:olivedrab;
+}
+
+ol{
+    list-style-type: decimal-leading-zero;
+    list-style-position: inside;
+    text-align: center;
+}
+
+li::marker {
+    color:aquamarine;
+    font-size: 15px;
+    font-style: Verdana ;
+}
+
+li:nth-child(x) {
+    color:brown;
+}
+
+.headings {
+    display: inline-block;
+    margin-inline: 2rem;
+    height: 300px;
+    background-color: rgb(255, 0, 0);
+    display: none;
+}
+
+.float-image {
+    float: right;
+    height: 200px;
+    width: 200px;
+    margin-right: 2rem;
+}
+
+.blackquote-text {
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section#column-layout {
+    column-count: 2;
+    column-width: 200px;
+    column-gap: 5px;
+    column-rule-color: red;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+    column-rule: 1px solid red;
+
+}
